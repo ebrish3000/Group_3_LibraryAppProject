@@ -5,3 +5,4 @@ Feature: adding a user in users page
     Given I am on the Users page
     When I click to add user
     Then I should be abel to fill out the table to add new user
+    And Verify the user I added is in the list
